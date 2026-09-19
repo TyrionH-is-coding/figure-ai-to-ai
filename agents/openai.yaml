@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figure AI → AI"
+  short_description: "复用绘图、SVG重建与AI导出全流程，保留可编辑文字和干净轮廓"
+  default_prompt: "使用 $figure-ai-to-ai，根据我的研究内容或参考图完成绘图、可编辑 SVG 重建及 Adobe Illustrator AI 文件导出，并检查边缘、文字和重叠。"

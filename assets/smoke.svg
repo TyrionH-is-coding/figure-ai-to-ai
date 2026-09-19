@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="90mm" viewBox="0 0 800 450">
+  <rect id="background" width="800" height="450" fill="#FFFFFF"/>
+  <g id="connector" fill="none" stroke="#46515C" stroke-width="3" stroke-linecap="round">
+    <path d="M310 225 C340 180 390 180 425 225"/>
+  </g>
+  <g id="subjects" stroke-width="3">
+    <ellipse id="domain-a" cx="230" cy="225" rx="90" ry="70" fill="#9EC3EB" stroke="#2850A5"/>
+    <path id="domain-b" d="M425 225 C425 125 610 140 620 225 C630 325 425 325 425 225 Z" fill="#8FD3D2" stroke="#007176"/>
+  </g>
+  <g id="ion" fill="none" stroke="#F28E2B" stroke-width="2" stroke-linecap="round">
+    <line x1="230" y1="302" x2="230" y2="328" stroke-dasharray="5 7"/>
+    <circle cx="230" cy="356" r="23"/>
+  </g>
+  <g id="live-text" fill="#18212B" font-family="Microsoft YaHei" font-size="24" text-anchor="middle">
+    <text id="label-a" x="230" y="233">Domain A</text>
+    <text id="label-b" x="522" y="233">结构 B</text>
+    <text id="label-ion" x="230" y="363" font-family="Segoe UI Symbol" font-size="19">Ca²⁺</text>
+  </g>
+</svg>
